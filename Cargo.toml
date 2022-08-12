@@ -6,5 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+once_cell = "1.13.0"
+# for async logging
 tracing = "0.1.36"
+# for TUI
 tui = "0.18.0"
+# for byte operation
+byteorder = "1.4.3"
+bytes = "1.2.1"
+nom = "7.1.1"
