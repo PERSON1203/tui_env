@@ -238,6 +238,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "tokio"
+version = "1.20.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a8325f63a7d4774dd041e363b2409ed1c5cbbd0f867795e661df066b2b0a581"
+dependencies = [
+ "autocfg",
+ "pin-project-lite",
+]
+
+[[package]]
 name = "tracing"
 version = "0.1.36"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -290,6 +300,7 @@ dependencies = [
  "bytes",
  "nom",
  "once_cell",
+ "tokio",
  "tracing",
  "tui",
 ]
